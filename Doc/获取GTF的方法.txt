@@ -1,0 +1,39 @@
+# 该文档主要介绍如何从 ucsc 数据库上获取 annotation 文件（GTF）以及由 Ensembl Genes 到 Gene Symbol 的转换文件
+
+genome:		http://hgdownload.cse.ucsc.edu/goldenPath/dm6/bigZips/
+annotation:	
+1. Navigate to http://genome.ucsc.edu/cgi-bin/hgTables 
+
+2. Select the following options: 
+clade: insect 
+genome: D. melanogaster 
+assembly: Aug. 2014 (BDGP Release 6 + ISO1 MT/dm6) 
+group: Genes and Gene Predictions 
+track: Ensembl Genes 
+table: ensGene 
+region: Select “genome” for the entire genome. 
+output format: GTF – gene transfer format 
+output file: dm6_gene (enter a file name to save your results to a file, or leave blank to display results in the browser) 
+
+3. Click ‘get output’.
+
+---------------------------------
+Gene symbol:
+1. Navigate to http://genome.ucsc.edu/cgi-bin/hgTables 
+
+2. Select the following options: 
+clade: insect 
+genome: D. melanogaster 
+assembly: Aug. 2014 (BDGP Release 6 + ISO1 MT/dm6) 
+group: Genes and Gene Predictions 
+track: Ensembl Genes 
+table: ensGene 
+region: Select “genome” for the entire genome.  
+output format: Select Fields from primary and related tables
+output file: dm6_with-symbol (enter a file name to save your results to a file, or leave blank to display results in the browser) 
+
+3. Click ‘get output’.
+
+4. Click 'dm6.ensGtp.gene' and 'dm6.ensemblToGeneName.value'
+
+
