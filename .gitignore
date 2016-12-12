@@ -2,3 +2,6 @@
 /genome
 /index
 /KPGP-00001
+*.out
+*gz
+*gz.tbi
